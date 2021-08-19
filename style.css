@@ -1,0 +1,653 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    display: inline-block;
+    background-color: #F27756;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #fff;
+}
+
+.button_header{
+    background-color: #F27756; 
+    display: inline-block; 
+    height: 30px; 
+    line-height: 15px; 
+    border-radius: 8px; 
+    padding: 8px 16px; 
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #FF4517;
+    cursor: pointer;
+}
+
+.button_W {
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #F27756;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #F27756;
+}
+
+.button_W:hover{
+    background-color: #F27756;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.button-second{
+    display: inline-block;
+    background-color: #FC6C47;
+    padding: 16px 32px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.text_XS{
+    font-size: 14px;
+    color: #01579B;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.text_L{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.text_L_R{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.text_XL{
+    font-size: 32px;
+    color: #01579B;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    background-color: #F5F8FA;
+}
+
+#header{
+    background-color: #FFFFFF;
+    
+}
+
+#header .header_child_element{
+    height: 60px;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+.navigate_main .navigate_main_child{
+    margin-right: 16px;
+    
+}
+
+.navigate_main .select_language {
+    display: inline-block;
+}
+
+.navigate_main .lang{
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigate_main .contact_sale{
+    display: inline-block;
+}
+
+.navigate_main .textbox {
+    display: inline-block;
+    float: right;
+}
+
+.navigate_main .search_header{
+    background-color: #E9F6F5;
+    padding: 8px 16px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    outline: none;
+}
+
+#header .header_child{
+    border-bottom: 0.5px solid #F6F6F5;
+    
+}
+
+#header .navigate_second{
+    display: flex;
+    
+}
+
+.navigate_second .navigate_second_child{
+    width: 30%;
+}
+
+.navigate_second .logo img{
+    width: 140px;
+    height: 50px;
+}
+
+.navigate_second .menu ul{
+    list-style: none;
+}
+
+.navigate_second .menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigate_second .menu a{
+    text-decoration: none;
+}
+.navigate_second .free_trial{
+    margin-left: 15%;
+}
+
+#slider{
+    height: 900px;
+    background-image: url("https://www.nobita.pro/wp-content/uploads/2021/07/Banner2-01-1-min.png");
+    background-color: #F5F8FA;
+    text-align: center;
+}
+
+#slider .slider_element{
+    padding: 30px 30px;
+}
+
+#slider .slogan{
+    width: 25%;
+    margin: 0 auto;
+    background-color: #F6E8E5;
+    padding: 16px 4px;
+    border: none;
+    border-radius: 8px;
+}
+
+#intro{
+    background-color: #F5F8FA;
+}
+
+#intro .intro_element{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px auto;
+}
+
+#product{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px auto;
+}
+
+.product_element{
+    box-shadow: 0.2px 0.2px 5px #0001;
+    margin-bottom: 20px;
+    pointer-events: auto;
+    transition: .3s;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 16px;
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+}
+
+.product_element p{
+    margin-bottom: 20px;
+}
+
+.product_element i{
+    color: #F27756;
+}
+
+
+.product_element .text_XS{
+    border-bottom: 1px solid #000;
+}
+
+#expert{
+    background-color: #F27756;
+    padding: 30px 30px;
+}
+
+#expert .expert_element_first{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+#expert .expert_element{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.expert_element ul{
+    list-style: none;
+}
+
+.expert_element .item-expert{
+    display: inline-block;
+    width: 11%;
+}
+
+.expert_element .item-expert li{
+    display: inline-block;
+}
+
+
+.expert_element .item-expert img{
+    width: 124px;
+    height: 124px;
+    border: 5px solid #fff;
+    border-radius: 62px;
+}
+
+#about{
+    padding: 30px 30px;
+}
+
+#about .about_element{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px auto;
+}
+
+#about .about_element_child{
+    display: flex;
+}
+
+.about_element .item{
+    box-shadow: 0.2px 0.2px 5px #0001;
+    margin-bottom: 20px;
+    pointer-events: auto;
+    transition: .3s;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 16px;
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+}
+
+.item .child-item{
+    height: 180px;
+}
+
+.about_element .auther {
+    background-color: #F5F5F5;
+    display: flex;
+    border-radius: 8px;
+}
+
+.about_element .auther img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.auther .auther_info{
+    display: inline-block;
+}
+
+#partner{
+    background-color: #fff;
+    padding: 30px 30px;
+}
+
+#partner .partner_element{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.partner_element .partner_element_child_second{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner_element .partner_element_child_second img{
+    width: 15%;
+    height: 80px;
+    margin: 2%;
+}
+
+#footer{
+    background-color: #2D3E50;
+    color: #fff;
+    padding: 30px 30px;
+}
+
+#footer .footer_element{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.footer_element .footer_element_child{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 1px solid #000;
+}
+
+.footer_element_child .item{
+    display: inline-block;
+    width: 49%;
+    padding: 16px 16px;
+}
+
+.footer_element_child .text_XS {
+    color: #fff;
+}
+
+.footer_element_child .item_XL{
+    width: 70%;
+    padding: 16px 16px;
+}
+
+@media (max-width: 768px) { 
+
+    #header .header_child_element{
+        width: 100%;
+        display: flex;
+        margin: 0px 8px;
+        justify-content: space-around;
+
+    }
+    .navigate_main_child{
+
+    }
+
+    .navigate_main_child .search_header{
+        display: none;
+    }
+
+    .header_child_element .menu{
+        display: none;
+    }
+
+    .free_trial{
+        margin: 0 auto;
+    }
+
+    .button_header{
+        background-color: #F27756; 
+        display: block; 
+        margin-top: 15px;
+        line-height: 15px; 
+        border-radius: 8px; 
+        padding: 8px 16px; 
+        color: #fff;
+        width: 150%;
+    }
+
+    #slider{
+        width: 100%;
+        height: 60vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-image: url("https://www.nobita.pro/wp-content/uploads/2021/07/Banner2-01-1-min.png");
+        background-color: #F5F8FA;
+    }
+
+    #slider .slider_element{
+        padding: 30px 30px;
+    }
+    
+
+    #slider .slogan{
+        width: 90%;
+        margin: 0 auto;
+        background-color: #F6E8E5;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .text_L{
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 14px;
+    }
+
+    .text_XS{
+        font-size: 12px;
+        font-weight: 300;
+        margin-bottom: 14px;
+    }
+
+    .text_XL{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
+
+    #intro{
+
+    }
+
+    #intro .intro_element{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 30px 4px;
+    }
+
+    #product{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 30px auto;
+        padding: 30px 4px;
+    }
+    
+    .product_element{
+        box-shadow: 0.2px 0.2px 5px #0001;
+        margin-bottom: 20px;
+        pointer-events: auto;
+        transition: .3s;
+        background-color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 16px 16px;
+        width: 100%;
+        margin-right: 3%;
+        margin-bottom: 30px;
+    }
+
+    #expert{
+        background-color: #F27756;
+        padding: 30px 4px;
+    }
+    
+    #expert .expert_element_first{
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+        
+    }
+    
+    #expert .expert_element{
+        width: 90%;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .expert_element .item-expert{
+        display: inline-block;
+        width: 20%;
+    }
+    
+    
+    
+    .expert_element .item-expert img{
+        width: 60px;
+        height: 60px;
+        border: 5px solid #fff;
+        border-radius: 62px;
+    }
+
+    #about{
+        padding: 30px 4px;
+    }
+    
+    #about .about_element{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 30px auto;
+    }
+    
+    #about .about_element_child{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about_element .item{
+        box-shadow: 0.2px 0.2px 5px #0001;
+        margin-bottom: 20px;
+        pointer-events: auto;
+        transition: .3s;
+        background-color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 16px 16px;
+        width: 100%;
+        margin-right: 3%;
+        margin-bottom: 30px;
+    }
+    .item .child-item{
+    }
+    
+    .about_element .auther {
+        background-color: #F5F5F5;
+        display: flex;
+        border-radius: 8px;
+    }
+    
+    .about_element .auther img{
+        width: 83px;
+        height: 83px;
+        margin-right: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    #partner{
+        background-color: #fff;
+        padding: 30px 4px;
+    }
+    
+    #partner .partner_element{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    
+    .partner_element .partner_element_child_second{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partner_element .partner_element_child{
+        width: 100%;
+    }
+    
+    .partner_element .partner_element_child_second img{
+        width: 15%;
+        margin: 2%;
+        height: 40px;
+    }
+    
+    #footer{
+        background-color: #2D3E50;
+        color: #fff;
+        padding: 30px 4px;
+    }
+    
+    #footer .footer_element{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer_element .footer_element_child{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border-right: 1px solid #000;
+    }
+    
+    .footer_element_child .item{
+        display: inline-block;
+        width: 100%;
+        padding: 16px 16px;
+    }
+    
+    .footer_element_child .text_XS {
+        color: #fff;
+    }
+    
+    .footer_element_child .item_XL{
+        width: 70%;
+        padding: 16px 16px;
+    }
+
+}
